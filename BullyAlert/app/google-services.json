@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "392939806509",
+    "firebase_url": "https://cyber-123.firebaseio.com",
+    "project_id": "cyber-123",
+    "storage_bucket": "cyber-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392939806509:android:66a1973e8f6eea0f",
+        "android_client_info": {
+          "package_name": "com.example.carol.bullyalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392939806509-un53ta2jp6vle9ijok3hmifv4mjugir7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carol.bullyalert",
+            "certificate_hash": "d2a37f50f469e5d0d3a6086067245a565b24dff1"
+          }
+        },
+        {
+          "client_id": "392939806509-265h4lqvpm666cr8m3mda5q4geb7l50k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6tGDrRQrV9QRwxh0pFAjsP0YXN0hv-Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392939806509-265h4lqvpm666cr8m3mda5q4geb7l50k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

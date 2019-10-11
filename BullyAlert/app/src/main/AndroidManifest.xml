@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carol.bullyalert">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".authentication.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".authentication.Welcome" />
+        <activity android:name=".authentication.Signup"/>
+        <activity android:name=".authentication.Signin" />
+        <activity android:name=".chat.ChatRoom" />
+        <activity android:name=".aob.Settings" />
+        <activity android:name=".aob.Awareness"/>
+        <activity android:name=".aob.Comment"
+            android:parentActivityName=".aob.Settings"/>
+        <activity android:name=".aob.OnlineHelp"
+            android:parentActivityName=".aob.Settings"/>
+        <activity android:name=".aob.Help"
+            android:parentActivityName=".aob.OnlineHelp" />
+        <activity android:name=".aob.ContactUs"
+            android:parentActivityName=".aob.OnlineHelp" />
+        <activity android:name=".aob.Terms"
+            android:parentActivityName=".aob.OnlineHelp" />
+        <activity android:name=".aob.ReportTest" />
+
+        <service android:name=".service.MyService">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" >
+                </action>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

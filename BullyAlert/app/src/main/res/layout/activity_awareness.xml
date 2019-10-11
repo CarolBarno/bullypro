@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".aob.Awareness">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardBackgroundColor="#f0ffff"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/content"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:padding="10dp"
+            android:text="What is Cyberbullying"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:padding="10dp"
+            android:text="The feeling the victims gets after they have been cyber bullied is indescribable. It's something that only a true victim of cyber bullying can even begin to comprehend. Cyber bullying is the infliction of harm willfully and repeatedly by using internet devices. The actions of a true cyber bully must cause harm, either physical or emotional, to the victim and will show some form of behavioral pattern. Cyber bullying must be electronic.  "
+            android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardBackgroundColor="#f0ffff"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/content5w"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="Five W's of Cyberbullying"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text5w"
+                android:padding="10dp"
+                android:text="This describes the where, when, who, why and what of cyber bullying.
+1. Where: It is important to understand where the bullying takes place. Cyber bullies hide online because that is the place with the least amount of supervision. There are people of all kinds on the internet, each of them susceptible to one form of abuse.
+2. Why: Most people bully because of feelings of jealousy, fear, distrust and need for a cool or popular image.
+3. When: Bullying is most prevalent is some ages than others. 37% of students in 6th grade report being bullied, but only 22% high school seniors faced abuse at school.
+4. Who: Ethnicity and race are among the driving force, though minorities are likely to experience the same bullying, regardless of ethnic background.
+5. What: So just what does bullying looks like? Forms of harassment within the internet include abusive text messages and attacks via social media."
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardBackgroundColor="#f0ffff"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/contenttypes"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="Types of Cyberbullying"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/texttypes"
+                android:padding="10dp"
+                android:text="THe different types of cyber bullying are:
+> Flaming, where victims are attacked by one or more bullies simply by posting their opinions. Victims are insulted.
+> Exclusion, involves the discrimination of one single person from most of the online activity engaged in by most people.
+> Harassment, occurs when one or more bullies continuously attack the same person over a long period of time.
+> Cyber Stalking, two bullies gang up against one victim, and after gathering enough information on this victim, the bullies threaten their victim continuously and violently.
+> Outing, the bully takes personal information of their victim from the internet and release it to the public, exposing them to th outside world.
+> Other forms are masquerading and secual harassment cyberbullying. "
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardBackgroundColor="#f0ffff"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/contenteffects"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="Effects of Cyberbullying"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/texteffects"
+                android:padding="10dp"
+                android:text="The impact maybe long-lasting: some of the effects of cyber bullying include:
+> Clinical depression
+> Suffering grades
+> Suicide"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardBackgroundColor="#f0ffff"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/contentvictims"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="Victims of Cyberbullying"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textvictims"
+                android:padding="10dp"
+                android:text="What is someone supposed to do after they have been bullied?
+1. Keep the evidence. don't delete the message that the bully sends to you.
+2. Talk about it with someone you trust will help you get over it quicker.
+3. Specifically block out the bully.
+4. Filter people out, limit who view your account.
+5. Say no to revenge.
+6. Report bullying to authorities.
+7. Talk to school management and law enforcement."
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardBackgroundColor="#f0ffff"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/contenthelp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="Helping of Cyberbullying Victims"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/texthelp"
+                android:padding="10dp"
+                android:text="When this happen, you as a friend or concerned person can do the following:
+> Give them support.
+> Take charge of the situation.
+> Do not revenge.
+> Stand up to the oppressor.
+> Report the bully immediately.
+"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardBackgroundColor="#f0ffff"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/contentstand"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="Understanding Cyberbullying"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textstand"
+                android:padding="10dp"
+                android:text="To fully understand what is meant by cyber bullying, one may try to answer the following questions:
+> Have you just been blocked on social media by a person you thought was your friend?
+> Has an embarrassing story or rumor about you been spread around on the internet?
+> Have you noticed regular comments from an anonymous user on almost all of your social media accounts?
+> Have you recently had an argument that got way out of hand on your social media board?
+> Have your friends pushed you aside and have ow made you the subject of their discussion?"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
+
+</ScrollView>
